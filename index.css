@@ -1,0 +1,97 @@
+body{
+    margin: 0;
+}
+
+/*Isso vai afetar todo o site*/
+.main-login{
+    /*vw=view width, ou seja, 100% da tela*/
+    width: 100vw;
+    height: 100vh;
+    background-color:#201b2c;
+    /*Coloca as divs uma ao lado da outra*/
+    display:flex;
+    /*Alinha os itens ao centro de x*/
+    justify-content: center;
+    /*Alinha os itens ao centro de y*/
+    align-items: center;
+    
+}
+
+.home{
+    width: 50vw;
+    height: 100vh;
+    font-size: 30px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-decoration: none;
+}
+.link-background{
+    
+    font-size: 60px;
+}
+
+/*Lado esquerdo*/
+.left-side{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#titulo-pagina{
+    color:#77ffc0;
+}
+
+/*Lado direito*/
+.rigth-side{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.login-card{
+    width: 60%;
+    /*Os itens são exibidos em coluna*/
+    flex-direction: column;
+    /*tamanho da div*/
+    padding: 30px 65px;
+    background: #2f2841;
+    border-radius: 20px;
+    box-shadow: 10px 20px 10px #00000056;
+    line-height: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#titulo-login{
+    color:#00ff88;
+    font-weight: 800;
+    margin: 0;
+}
+
+.text-field{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.text-field > input{
+    width: 100;
+    border: none;
+    border-radius: 5px;
+    
+}
+
+.button-login{
+    margin-top: 15px;
+}
+
