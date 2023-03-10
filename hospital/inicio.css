@@ -1,0 +1,37 @@
+body{
+    margin: 0;
+    height: 100vh;
+    display: grid;
+    grid-template-areas:
+    "topo"
+    "imagem-capa"
+    "corpo"
+    "mapa"
+    "rodape";
+
+    grid-template-rows: 60px 160px 1fr 110px 80px;
+}
+
+.topo{
+    grid-area: topo;
+    background-color: green;
+}
+.imagem-capa{
+    grid-area: imagem-capa;
+    background-color: red;
+}
+
+.corpo{
+grid-area: corpo;
+    background-color: blue;
+}
+
+.mapa{
+    grid-area: mapa;
+    background-color: purple;
+}
+
+.rodape{
+    grid-area: rodape;
+    background-color: yellow;
+}

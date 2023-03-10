@@ -1,18 +1,22 @@
-.dados{
+form {
+  margin-top: 20px;
+  margin-bottom: 20px; 
+}
+
+.dados {
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
     outline: none;
     background-color:#f58f8f;
-  }
+}
   
-  .legend-dados{
+.legend-dados {
     font-size:20px;
     font-weight:900;
-  }
+}
   
-  input{
-    align-content:center;
-    align-items:center;
-  }
+input[type="text"] {
+  width: 300px;
+}
