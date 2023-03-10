@@ -1,0 +1,18 @@
+.dados{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    outline: none;
+    background-color:#f58f8f;
+  }
+  
+  .legend-dados{
+    font-size:20px;
+    font-weight:900;
+  }
+  
+  input{
+    align-content:center;
+    align-items:center;
+  }
